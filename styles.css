@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -64,6 +69,11 @@ h1 {
     margin-left: 0;
     margin-top: 10px;
     width: 50px;
+}
+
+.button:hover {
+        background-color: #639bf5;
+        color: white;
 }
 
 .second-link {
@@ -142,4 +152,70 @@ h2 {
     padding-right: 200px;
     font-size: 24px;
     font-weight: bold;
+}
+
+
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 20px 200px 20px 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    font-size: 18px;
+}
+
+.fourth-part {
+    display: flex;
+    background-color: white;
+    padding: 100px 200px 100px 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    border-radius: 10px;
+    background: #3882F6;
+    margin-top: 30px;
+    color: #E5E7EB;
+    width: 624px;
+    padding: 75px 200px;
+}
+
+.call {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign {
+    font-size: 18px;
+}
+
+.second-button {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.button-two {
+    border: 2px solid white;
+    background-color:#3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: -12px;
+    cursor: pointer;
+}
+
+.button-two:hover {
+        background-color:#639bf5;
+        color: white;
 }
